@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "17742722-b690-416e-8e12-1264a6f3f82a",
+            "Value": {
+                "id": "4848157a-b22f-44ae-8033-5c3e7c50ac25",
+                "resourcePath": "tilesets\\ts_road\\ts_road.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "1b303090-3cbe-44a4-b04e-12459c1ad12c",
             "Value": {
                 "id": "d076dd91-1325-4046-8805-116b935a2392",
@@ -156,6 +164,14 @@
                 "id": "6153799b-937d-4e59-8012-7b1cac484684",
                 "resourcePath": "objects\\obj_building\\obj_building.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6a2cbf6a-368a-46f6-8397-3b80b88d12e4",
+            "Value": {
+                "id": "0b31dc6c-4556-4efb-a7ca-bd636e6046bb",
+                "resourcePath": "sprites\\spr_road\\spr_road.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -442,7 +458,7 @@
             "Key": "f7dd0e9e-34e7-48c5-89ec-3409fc53d3a5",
             "Value": {
                 "id": "f6c5eb85-1914-476f-b7d8-7fc24f84d20e",
-                "resourcePath": "sprites\\spr_road\\spr_road.yy",
+                "resourcePath": "sprites\\spr_roadts\\spr_roadts.yy",
                 "resourceType": "GMSprite"
             }
         },
