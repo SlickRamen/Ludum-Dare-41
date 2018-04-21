@@ -1,0 +1,34 @@
+Ludum Dare 41:
+
+Topic: Combine 2 Incompatible Genres
+
+Ideas: Sim city style game with a twist (Horror and Humor)
+
+Note: Sim City is a system-based game, with lots of little rules and micro-AIs that come together to create a system with many intended and some unintended consequences.  We don't have time to orchestrate a whole system.  Need to narrow the scope and focus on the smallest possible units.
+Things Which can be Cut:
+Self-developing AI:  Laying down zones and waiting for the AI to populate them based on a complex algorithm.  We can just lay out fully developed houses, shops, and factories and work from there.
+Traffic Systems: Anything even remotely complex about the traffic systems in Sims needs to go.  There isnt time.  Roads get built, driven on, and that's that. Perhaps just a road state based on how busy it is MAYBE it can be full, but I think its too much.
+
+Smallest Possible Units of a Sim City Game:
+Housing: Residental area.  Houses laid down in entirety.  Possibly by econimc levels. Poor - middle class -rich?  Residental areas are the core of the population and population movement centers.  Residental areas produce tax, but also demand for everything else in the game.
+Stores: Enrich nearby residental districts, increasing tax revenue.  Tiers: mom and pop, malls, etc.  Generates some level of employment but far less than industry.
+Industry: Employment for the residents.  Source of negative happiness if too close or too far from residental areas.
+Utilities: Demand based on population milestones.  School, police, fire stations, hospitals, etc.  Can uniform utility demand into one variable.
+Roads: Connect all zones, but little more than that.  At MOST separate roads and highways as a road class.
+Money: Set amount to start, taxes increase revenue.  Dont overcomplicate this.
+(SlickRamen's Edit) Mayors: Different mayors have different abilities, set taxation amounts etc. You can't change this once you've picked it.
+
+Milestones:
+
+Population:
+100: Free building (Kindergarten)
+1000: +$10,000
+10,000:  Free building (Health Center)
+100,000: Free building (Dark Shrine of Kaxthaxuis)
+1,000,000: +$66,666,666
+
+Buildings: (don't know about this one)
+10: 
+50:
+100:
+500:
