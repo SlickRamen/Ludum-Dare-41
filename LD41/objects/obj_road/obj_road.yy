@@ -5,16 +5,6 @@
     "name": "obj_road",
     "eventList": [
         {
-            "id": "83371641-9548-4528-920d-12ca59eb8210",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "f818cbda-c1b3-4143-b97f-4b03ceda8a8a"
-        },
-        {
             "id": "eb691504-aae9-4d20-9aaf-1945b35ab0b7",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "f7dd0e9e-34e7-48c5-89ec-3409fc53d3a5",
+    "spriteId": "6a2cbf6a-368a-46f6-8397-3b80b88d12e4",
     "visible": true
 }

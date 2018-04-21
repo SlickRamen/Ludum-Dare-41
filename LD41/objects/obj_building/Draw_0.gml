@@ -1,5 +1,5 @@
 /// @desc
-if distance_to_object(obj_electricity) <= 60{
+if distance_to_object(obj_electricity) <= 60 and distance_to_object(obj_water) <= 60{
 	draw_set_color(c_white)
 	draw_self()
 }else{

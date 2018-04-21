@@ -1,7 +1,8 @@
 /// @desc Move with the mouse
+
 x = floor(mouse_x/grid_square_size)*grid_square_size
 y = floor(mouse_y/grid_square_size)*grid_square_size
-
+if enabled{
 //Visual 
 collider = place_meeting(x,y,obj_collider)
 
@@ -32,3 +33,12 @@ rotval = clamp(rotval,0,360)
 		instance_create_layer(x,y,"Instances",object)
 		global.money -= cost;
 	}
+}
+
+if keyboard_check_pressed(vk_space){
+	if enabled{
+		enabled = false
+	}else{
+		enabled = true	
+	}
+}

@@ -455,14 +455,6 @@
             }
         },
         {
-            "Key": "f7dd0e9e-34e7-48c5-89ec-3409fc53d3a5",
-            "Value": {
-                "id": "f6c5eb85-1914-476f-b7d8-7fc24f84d20e",
-                "resourcePath": "sprites\\spr_roadts\\spr_roadts.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f818cbda-c1b3-4143-b97f-4b03ceda8a8a",
             "Value": {
                 "id": "e5704616-375c-495c-9466-bfe9fd6e6cb7",
