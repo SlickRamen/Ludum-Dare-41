@@ -1,6 +1,8 @@
 /// Variables, enums, etc the whole game needs
 
 global.one_second = game_get_speed(gamespeed_fps);
+taxrate = 0
+alarm[1] = global.one_second
 
 //Section for establishing variables for the general state of things
 enum catergory {
@@ -19,6 +21,25 @@ enum catergory_state {
 	ok,
 	good,
 	excellent
+}
+
+enum disaster {
+	none,
+	earthquake,
+	tsunami,
+	fire,
+	meteorstrike,
+	alienattack
+}
+
+enum weather{ //This will make events more likeley depending on weather
+	subzero, //Highter chance for an alien attack
+	freezing,
+	cold,
+	moderate,
+	warm,
+	hot,
+	boiling //Highter chance for a fire ^^^
 }
 
 for (var i = 0; i <= catergory.taxes; i++) {
@@ -43,7 +64,8 @@ enum game_upkeep {
 }
 
 //Game stats
-global.total_population = 1;
+global.current_population = 1
+global.total_population = 100;
 global.starting_money = 10000;
 global.money = global.starting_money;
 
@@ -54,6 +76,7 @@ global.base_UI_enabled = true;
 //Costs
 global.house_cost = 100;
 global.road_cost = 10;
-
+global.electfaccost = 250
+global.waterfaccost = 250
 //Establish everything and goto the first room
 room_goto_next();
