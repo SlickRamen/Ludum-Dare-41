@@ -66,7 +66,7 @@ enum game_upkeep {
 //Game stats
 global.current_population = 1
 global.total_population = 100;
-global.starting_money = 10000;
+global.starting_money = 2000;
 global.money = global.starting_money;
 
 //UI stuff

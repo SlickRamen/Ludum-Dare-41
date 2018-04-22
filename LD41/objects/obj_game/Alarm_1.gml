@@ -1,3 +1,3 @@
 /// @desc Tax Alarm
 collect_taxes()
-alarm[1] = global.one_second*3
+alarm[1] = global.one_second*10
