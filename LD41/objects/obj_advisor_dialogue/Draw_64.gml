@@ -34,14 +34,18 @@ draw_text(110 + sprite_get_width(advisor_sprite) + (width-(110 + sprite_get_widt
 draw_set_halign(fa_left);
 
 if !final {
+	if count >= string_length(message){
     draw_text(105,gui_h-105,"[1]: Next");
     if keyboard_check_pressed(ord("1")) {
         instance_destroy();
         create_dialogue_window(advisor,advisor.scripted_dialogue_index,advisor.counter);
     }
+	}
 } else {
+	if count >= string_length(message){
     draw_text(105,gui_h-105,"[1]: Exit");
     if keyboard_check_pressed(ord("1")) {
         instance_destroy();
     }
+	}
 }

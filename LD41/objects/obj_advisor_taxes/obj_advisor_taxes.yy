@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_advisor_taxes",
     "eventList": [
-        
+        {
+            "id": "65becb9c-a504-4eee-8516-1b1910302991",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "735b73cd-8b18-4268-b8cf-a8c6734966f8"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

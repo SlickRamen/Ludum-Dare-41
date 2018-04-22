@@ -12,22 +12,7 @@ rotval = clamp(rotval,0,360)
 	if rotval >= 360{
 		rotval = 0
 	}
-	
-	/*if keyboard_check_pressed(ord("1")){
-		object = (obj_building)
-		cost = global.house_cost;
-	}else if keyboard_check_pressed(ord("2")){
-		object = (obj_road)
-		cost = global.road_cost;
-	}else if keyboard_check_pressed(ord("3")){
-		object = (obj_electricity)
-		cost = global.waterfaccost;
-	}
-	else if keyboard_check_pressed(ord("4")){
-		object = (obj_water)
-		cost = global.electfaccost;
-	}*/
-	
+
 	
 	if mouse_check_button(mb_left) and !collider and global.money >= cost{
 		instance_create_layer(x,y,"Instances",object)
@@ -38,11 +23,14 @@ rotval = clamp(rotval,0,360)
 if keyboard_check_pressed(vk_space){
 	if enabled{
 		enabled = false
+		sprite_pause = sprite_create_from_surface(application_surface,0,0,view_wport[0],view_hport[0],false,false,0,0) 
 		instance_deactivate_all(true)
-		
 		
 	}else{
 		enabled = true	
+		if sprite_exists(sprite_pause){
+			sprite_delete(sprite_pause)	
+		}
 		instance_activate_all()
 	}
 }
