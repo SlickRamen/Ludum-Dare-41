@@ -14,24 +14,29 @@ sprite_pause = noone
 enum buildS{
 	house,
 	road,
-	factory
+	reshouse
 }
 buildingS[buildS.house] = obj_building
 buildingS[buildS.road] = obj_road
-buildingS[buildS.factory] = obj_factory
+buildingS[buildS.reshouse] = obj_house
 
 bdescS[buildS.house] = "A Standard Resedential Building."
 bdescS[buildS.road] = "Takes you from one place to another."
-bdescS[buildS.factory] = "A cozy place to spend your lifespan."
+bdescS[buildS.reshouse] = "A cozy place to spend your life."
 
 enum buildE{
 	water,
 	electricity,
+	factory
 }
 buildingE[buildE.water] = obj_water
 buildingE[buildE.electricity] = obj_electricity
+buildingE[buildE.factory] = obj_factory
 
-bdescE[buildE.water] = "Essentials for life!"
-bdescE[buildE.electricity] = "Essentials for life!"
+bdescE[buildE.water] = "Water is life!"
+bdescE[buildE.electricity] = "Energy if life!"
+bdescE[buildE.factory] = "Makes you money!"
 
 btype = 0
+
+dispindex = 0

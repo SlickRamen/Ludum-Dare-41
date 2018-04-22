@@ -9,7 +9,7 @@ var _counter = argument2;
 var _dialogue = instance_create_layer(0,0,"Instances",obj_advisor_dialogue);
 
 _dialogue.advisor = _advisor;
-_dialogue.advisor_sprite = _advisor.sprite;
+_dialogue.advisor_sprite = _advisor.face_dialogue[_dialogue_index,_counter];;
 _dialogue.message = _advisor.scripted_dialogue[_dialogue_index,_counter];
 _advisor.counter++;
 

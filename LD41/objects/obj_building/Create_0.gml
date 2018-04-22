@@ -1,4 +1,7 @@
 cost = 100;
-global.current_population++
+
+powered = false;
+watered = false;
 on_grid = false;
-employed = false;
+
+active = false

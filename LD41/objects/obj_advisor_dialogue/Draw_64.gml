@@ -46,6 +46,8 @@ if !final {
     draw_text(105,gui_h-105,"[1]: Exit");
     if keyboard_check_pressed(ord("1")) {
         instance_destroy();
+		pause = false
     }
 	}
 }
+

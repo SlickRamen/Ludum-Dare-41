@@ -52,6 +52,7 @@ advisor_services = instance_create_layer(x,y,"Instances",obj_advisor_services);
 advisor_employment = instance_create_layer(x,y,"Instances",obj_advisor_employment);
 advisor_cultists = instance_create_layer(x,y,"Instances",obj_advisor_cultists);
 advisor_taxes = instance_create_layer(x,y,"Instances",obj_advisor_taxes);
+advisor_pm = instance_create_layer(x,y,"Instances",obj_advisor_pm);
 
 //Section for what the game upkeep events needs to manage
 
@@ -76,8 +77,11 @@ global.base_UI_enabled = true;
 //Costs
 global.costS[buildS.house] = 100;
 global.costS[buildS.road] = 10;
-global.costS[buildS.factory] = 500;
-global.costE[buildE.water] = 250
-global.costE[buildE.electricity] = 250
+global.costS[buildS.reshouse] = 250;
+global.costE[buildE.water] = 300;
+global.costE[buildE.electricity] = 300;
+global.costE[buildE.factory] = 500;
+
+milestone = 100 //first population milestone
 //Establish everything and goto the first room
 room_goto_next();

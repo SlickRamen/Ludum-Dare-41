@@ -1,5 +1,4 @@
 /// @desc Draw the GUI
-draw_text(0,50,object)
 if enabled{
 	draw_text(10,display_get_gui_height()-20,"Press [SPACE] to open build menu.")	
 }else{
@@ -39,7 +38,7 @@ if enabled{
 		draw_text(130,display_get_gui_height()-100,"Standards")
 	}
 	}else if btype == 1{ //Essential
-	for(var i = 0; i < 2; i ++){
+	for(var i = 0; i < 3; i ++){
 		if object == buildingE[i]{
 		draw_set_color(c_white)
 		draw_roundrect(130+(80*i),display_get_gui_height()-60,180+(80*i),display_get_gui_height()-10,false)	
@@ -71,4 +70,3 @@ if enabled{
 		btype = 2	
 	}
 }
-

@@ -17,7 +17,8 @@ if !place_meeting(x,y,obj_collider){
 //Draw the box
 draw_set_alpha(0.8)
 draw_sprite_ext(spr_gridplacer,0,x,y,1,1,rotval,col,0.8)
-draw_sprite(object_get_sprite(object),0,x,y)
+draw_sprite(object_get_sprite(object),dispindex,x,y)
 sprite_index = object_get_sprite(object)
+image_index = dispindex
 draw_set_alpha(1)
 }
