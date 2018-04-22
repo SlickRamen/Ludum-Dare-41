@@ -13,7 +13,7 @@ rotval = clamp(rotval,0,360)
 		rotval = 0
 	}
 	
-	if keyboard_check_pressed(ord("1")){
+	/*if keyboard_check_pressed(ord("1")){
 		object = (obj_building)
 		cost = global.house_cost;
 	}else if keyboard_check_pressed(ord("2")){
@@ -26,7 +26,7 @@ rotval = clamp(rotval,0,360)
 	else if keyboard_check_pressed(ord("4")){
 		object = (obj_water)
 		cost = global.electfaccost;
-	}
+	}*/
 	
 	
 	if mouse_check_button(mb_left) and !collider and global.money >= cost{

@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "8d570d62-5969-499c-beb8-a80b0d045be2",
+            "Value": {
+                "id": "20ad88b7-8bdb-4912-b227-909cb3407d2f",
+                "resourcePath": "sprites\\spr_mason\\spr_mason.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "914eac1f-138a-4476-b7cb-9217bf2037a8",
             "Value": {
                 "id": "fd24ff65-570d-464d-9765-b5d1176713f6",
@@ -276,6 +284,14 @@
                 "id": "66ee78e0-52ee-4310-8a07-40348c56f46f",
                 "resourcePath": "views\\92f5a63d-e892-44d1-8fb9-1e7931c3f5fe.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9b3d8732-0961-41ff-9156-c84a7ab4c1b6",
+            "Value": {
+                "id": "ed6a63aa-8d63-4b66-ba81-9ab8eb251592",
+                "resourcePath": "objects\\obj_advisor_dialogue\\obj_advisor_dialogue.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -324,6 +340,14 @@
                 "id": "9754f029-78f4-4d26-b1a0-354067ca03e9",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ab864b59-3088-4c43-9b98-ce3db12ea412",
+            "Value": {
+                "id": "cbc027e9-2bb1-4b5b-8516-d79624015da4",
+                "resourcePath": "scripts\\create_dialogue_window\\create_dialogue_window.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -496,7 +520,8 @@
         }
     ],
     "script_order": [
-        "b457ef90-ef73-44ed-ad9a-e6e4dcd39ef0"
+        "b457ef90-ef73-44ed-ad9a-e6e4dcd39ef0",
+        "ab864b59-3088-4c43-9b98-ce3db12ea412"
     ],
     "tutorial": ""
 }

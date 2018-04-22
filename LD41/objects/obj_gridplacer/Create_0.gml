@@ -12,9 +12,8 @@ enabled = true
 enum buildS{
 	house,
 	road,
-	
 }
-buildingS[buildS.house] = spr_building
-buildingS[buildS.road] = spr_road
+buildingS[buildS.house] = obj_building
+buildingS[buildS.road] = obj_road
 
 btype = 0

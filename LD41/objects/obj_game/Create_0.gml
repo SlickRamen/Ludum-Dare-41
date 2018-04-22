@@ -46,12 +46,12 @@ for (var i = 0; i <= catergory.taxes; i++) {
 	global.state[i] = catergory_state.none;	
 }
 
-global.advisor_roads = instance_create_layer(x,y,"Instances",obj_advisor_roads);
-global.advisor_housing = instance_create_layer(x,y,"Instances",obj_advisor_housing);
-global.advisor_services = instance_create_layer(x,y,"Instances",obj_advisor_services);
-global.advisor_employment = instance_create_layer(x,y,"Instances",obj_advisor_employment);
-global.advisor_cultists = instance_create_layer(x,y,"Instances",obj_advisor_cultists);
-global.advisor_taxes = instance_create_layer(x,y,"Instances",obj_advisor_taxes);
+advisor_roads = instance_create_layer(x,y,"Instances",obj_advisor_roads);
+advisor_housing = instance_create_layer(x,y,"Instances",obj_advisor_housing);
+advisor_services = instance_create_layer(x,y,"Instances",obj_advisor_services);
+advisor_employment = instance_create_layer(x,y,"Instances",obj_advisor_employment);
+advisor_cultists = instance_create_layer(x,y,"Instances",obj_advisor_cultists);
+advisor_taxes = instance_create_layer(x,y,"Instances",obj_advisor_taxes);
 
 //Section for what the game upkeep events needs to manage
 

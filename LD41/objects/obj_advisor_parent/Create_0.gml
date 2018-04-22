@@ -28,3 +28,7 @@ dark_name = "";
 title = "";
 dark_title = "";
 scripted_dialogue_counter = 0;
+
+counter = 0;
+sprite = noone;
+scripted_dialogue_index = 0;
