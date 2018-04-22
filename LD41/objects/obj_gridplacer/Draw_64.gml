@@ -17,7 +17,7 @@ if enabled{
 	draw_text(10,display_get_gui_height()-40,"[E]: Other")
 	draw_rectangle(10 + 108,display_get_gui_height()-100,120,display_get_gui_height()-10,false)
 	if btype == 0{ //Standard
-	for(var i = 0; i < 2; i ++){
+	for(var i = 0; i < 3; i ++){
 		
 		if object == buildingS[i]{
 		draw_set_color(c_white)
@@ -33,6 +33,7 @@ if enabled{
 		draw_text(130+(80*i),display_get_gui_height()-80,"[" + string((i+1)) + "]")
 		if keyboard_check_pressed(ord(i+1)){
 			object = buildingS[i]
+			cost = global.costS[i];
 		}
 		draw_set_color(c_white)
 		draw_text(130,display_get_gui_height()-100,"Standards")
@@ -53,6 +54,7 @@ if enabled{
 		
 		if keyboard_check_pressed(ord(i+1)){
 			object = buildingE[i]
+			cost = global.costE[i];
 		}
 		draw_set_color(c_white)
 		draw_text(130,display_get_gui_height()-100,"Essentials")

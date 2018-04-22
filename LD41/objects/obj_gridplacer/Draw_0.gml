@@ -1,8 +1,17 @@
 /// @desc Visual
 if enabled{
 if !place_meeting(x,y,obj_collider){
-	col = c_blue	
+	if (object == obj_road) {
+		if (place_meeting(x+32,y,obj_road)) || (place_meeting(x-32,y,obj_road)) || (place_meeting(x,y-32,obj_road)) || (place_meeting(x,y+32,obj_road)) || !instance_exists(obj_road) {	
+		col = c_blue
+		} else {
+		col = c_maroon
+		}
+	} else {
+		col = c_blue
+	}
 }else{
+
 	col = c_maroon
 }
 //Draw the box

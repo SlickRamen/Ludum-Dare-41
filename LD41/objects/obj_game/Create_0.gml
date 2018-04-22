@@ -74,9 +74,10 @@ draw_set_font(fnt_text);
 global.base_UI_enabled = true;
 
 //Costs
-global.house_cost = 100;
-global.road_cost = 10;
-global.electfaccost = 250
-global.waterfaccost = 250
+global.costS[buildS.house] = 100;
+global.costS[buildS.road] = 10;
+global.costS[buildS.factory] = 500;
+global.costE[buildE.water] = 250
+global.costE[buildE.electricity] = 250
 //Establish everything and goto the first room
 room_goto_next();

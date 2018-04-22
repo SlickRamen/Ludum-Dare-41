@@ -15,8 +15,15 @@ rotval = clamp(rotval,0,360)
 
 	
 	if mouse_check_button(mb_left) and !collider and global.money >= cost{
-		instance_create_layer(x,y,"Instances",object)
-		global.money -= cost;
+		if object != obj_road {
+			instance_create_layer(x,y,"Instances",object)
+			global.money -= cost;
+		} else {
+			if (place_meeting(x+32,y,obj_road)) || (place_meeting(x-32,y,obj_road)) || (place_meeting(x,y-32,obj_road)) || (place_meeting(x,y+32,obj_road)) || !instance_exists(obj_road) {
+				instance_create_layer(x,y,"Instances",object)
+				global.money -= cost;
+			}
+		}
 	}
 }
 
