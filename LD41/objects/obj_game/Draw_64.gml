@@ -21,3 +21,12 @@ if keyboard_check_pressed(ord("E")){
 draw_sprite(spr_population,0,0,0)
 draw_set_color(c_white)
 draw_text(0+16,0,": " + string(global.current_population))
+
+draw_set_alpha(0.8)
+draw_set_color(c_black)
+draw_roundrect(100,30,_gui_w-100,_gui_h-30,false)
+draw_set_alpha(1)
+draw_set_color(c_white)
+draw_set_font(fnt_title)
+draw_text(105,35,"ALERT!")
+draw_set_font(fnt_text)

@@ -27,19 +27,20 @@ enum disaster {
 	none,
 	earthquake,
 	tsunami,
+	drought,
 	fire,
 	meteorstrike,
 	alienattack
 }
 
 enum weather{ //This will make events more likeley depending on weather
-	subzero, //Highter chance for an alien attack
+	subzero, //Highter chance for an alien attack?
 	freezing,
 	cold,
 	moderate,
 	warm,
 	hot,
-	boiling //Highter chance for a fire ^^^
+	boiling //Highter chance for a fire and drought ^^^
 }
 
 for (var i = 0; i <= catergory.taxes; i++) {
