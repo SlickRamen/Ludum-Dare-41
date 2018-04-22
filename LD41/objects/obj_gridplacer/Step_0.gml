@@ -38,7 +38,11 @@ rotval = clamp(rotval,0,360)
 if keyboard_check_pressed(vk_space){
 	if enabled{
 		enabled = false
+		instance_deactivate_all(true)
+		
+		
 	}else{
 		enabled = true	
+		instance_activate_all()
 	}
 }
