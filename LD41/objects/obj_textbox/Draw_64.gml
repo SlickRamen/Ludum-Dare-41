@@ -26,7 +26,21 @@ str = string_copy(message,ds_list_find_value(start,line),count-ds_list_find_valu
 draw_text(105,50+padding,str)
 if option1 != ""{
 draw_text(105,gui_h-105,"[1]: " + option1)
+if keyboard_check_pressed(ord("1"))
+	if type1 == 0{
+		instance_destroy()
+	}else{
+		instance_destroy()
+		var tb = instance_create_layer(0,0,"Instances",obj_textbox)
+		tb.option1 = optset1
+		tb.option2 = optset2
+		tb.type1 = type1sec
+		tb.message = messagesec
+	}
 }
 if option2 != ""{
 draw_text(105,gui_h-65,"[2]: " + option2)
+if keyboard_check_pressed(ord("2")){
+	instance_destroy(id) //2 is always exit
+}
 }

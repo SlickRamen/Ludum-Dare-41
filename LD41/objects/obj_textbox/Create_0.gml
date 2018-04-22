@@ -19,3 +19,9 @@ padding = 16
 
 option1 = ""
 option2 = ""
+type1 = 0
+
+messagesec = ""
+type1sec = 0
+optset1 = ""
+optset2 = ""
