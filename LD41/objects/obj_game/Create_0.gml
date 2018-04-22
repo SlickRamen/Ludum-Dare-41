@@ -1,9 +1,8 @@
 /// Variables, enums, etc the whole game needs
-
 global.one_second = game_get_speed(gamespeed_fps);
 taxrate = 0
 alarm[1] = global.one_second
-
+alarm[2] = global.one_second
 //Section for establishing variables for the general state of things
 enum catergory {
 	roads,
