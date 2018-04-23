@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "520d330e-29e3-4ea9-ace5-dfb9d4d30e71",
+            "Value": {
+                "id": "0a4612d8-ac9d-4253-91b1-3a0f2b9b1990",
+                "resourcePath": "scripts\\check_roads\\check_roads.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "541c0a10-acdb-46c4-9b8b-88d2eb85533a",
             "Value": {
                 "id": "510178a0-7de9-4ec8-bc56-bc42747c8c15",
@@ -673,7 +681,8 @@
     ],
     "script_order": [
         "b457ef90-ef73-44ed-ad9a-e6e4dcd39ef0",
-        "ab864b59-3088-4c43-9b98-ce3db12ea412"
+        "ab864b59-3088-4c43-9b98-ce3db12ea412",
+        "520d330e-29e3-4ea9-ace5-dfb9d4d30e71"
     ],
     "tutorial": ""
 }
