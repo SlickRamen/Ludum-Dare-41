@@ -1,6 +1,6 @@
 /// @desc Visual
 if enabled{
-if !place_meeting(x,y,obj_collider){
+if !place_meeting(x,y,obj_collider) and global.money >= cost{
 	if (object == obj_road) {
 		if (place_meeting(x+32,y,obj_road)) || (place_meeting(x-32,y,obj_road)) || (place_meeting(x,y-32,obj_road)) || (place_meeting(x,y+32,obj_road)) || !instance_exists(obj_road) {	
 		col = c_blue

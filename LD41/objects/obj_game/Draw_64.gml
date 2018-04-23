@@ -5,8 +5,9 @@ var _gui_h = display_get_gui_height();
 
 if (global.base_UI_enabled == true) {
 	draw_set_halign(fa_right);
-	draw_sprite_ext(spr_tax,taxrate,_gui_w - 64, _gui_h - 128,2,2,0,c_white,1)
+	draw_sprite_ext(spr_tax,taxrate,_gui_w - 96, _gui_h - 128,2,2,0,c_white,1)
 	draw_text_transformed(_gui_w - 16,_gui_h - 32,"Cash: " + string(global.money),2,2,0);
+	draw_text_transformed(_gui_w - 16,_gui_h - 64,"Latest Gain: " + string(global.taxmoney - global.costmoney),2,2,0);
 	draw_set_halign(fa_left);
 }
 

@@ -53,20 +53,3 @@ if keyboard_check_pressed(vk_space){
 	
 
 }
-if object == (obj_road){
-if keyboard_check_pressed(vk_left){
-			if dispindex > 0{
-			dispindex -= 1	
-			}else{
-			dispindex = sprite_get_number(object_get_sprite(object))-1	
-			}
-}else if keyboard_check_pressed(vk_right){
-			if dispindex < sprite_get_number(object_get_sprite(object))-1	{
-			dispindex += 1	
-			}else{
-			dispindex = 0
-			}
-}
-}else{
-	dispindex = 0	
-}

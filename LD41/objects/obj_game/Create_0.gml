@@ -57,7 +57,8 @@ advisor_pm = instance_create_layer(x,y,"Instances",obj_advisor_pm);
 //Section for what the game upkeep events needs to manage
 
 global.upkeep_time = global.one_second*30;
-
+global.costmoney = 0
+global.taxmoney = 0
 enum game_upkeep {
 	income,
 	costs,
