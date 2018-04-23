@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "7700472b-19c6-449e-b85e-148cf064d9fc",
+            "Value": {
+                "id": "78ef869b-7f5e-4dac-b418-b06a62fc9082",
+                "resourcePath": "objects\\obj_spent_money\\obj_spent_money.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7d40f18b-9e39-4182-bf7c-629e4a553f65",
             "Value": {
                 "id": "919169c2-23a7-47b5-8873-430522cddc97",

@@ -18,10 +18,14 @@ rotval = clamp(rotval,0,360)
 		if object != obj_road {
 			instance_create_layer(x,y,"Instances",object)
 			global.money -= cost;
+			var _money_spent = instance_create_layer(x-16,y,"Instances",obj_spent_money);
+			_money_spent.money = cost;
 		} else {
 			if (place_meeting(x+32,y,obj_road)) || (place_meeting(x-32,y,obj_road)) || (place_meeting(x,y-32,obj_road)) || (place_meeting(x,y+32,obj_road)) || !instance_exists(obj_road) {
 				var o = instance_create_layer(x,y,"Instances",object)
 				global.money -= cost;
+				var _money_spent = instance_create_layer(x-16,y,"Instances",obj_spent_money);
+				_money_spent.money = cost;
 				o.image_index = dispindex
 			}
 		}
